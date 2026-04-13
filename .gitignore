@@ -1,0 +1,92 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# PyTorch Models
+*.pt
+*.pth
+*.ckpt
+*.h5
+
+# Experiment Logs
+*.log
+logs/
+
+# Data - large/redundant files
+data/微阵列基因表达数据集/
+data/HighDD/
+
+# Copyrighted papers
+*.pdf
+
+# Experiment scripts (not needed for reproducibility)
+test/
+experiment/
+docs/
+
+# Ablation/baseline-only model files
+model/ablation_components.py
+model/adap_bdcm_wrapper.py
+model/gating.py
+
+# Unrelated experiment files
+spam_comparison.py
+spam_original_words.py
+spam_comparison_multiseed_summary.csv
+
+# System
+.DS_Store
+Thumbs.db
+*.bak
+*.tmp
+
+# Python Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Misc
+*.pkl
+*.pickle
